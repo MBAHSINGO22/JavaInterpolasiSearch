@@ -1,7 +1,6 @@
-<h1 align="center">🔍 JavaInterpolasiSearch</h1>
+<h1 align="center">🔍 Java Interpolasi Search</h1>
 <p align="center">
   <b>Implementasi Larik, Pengujian Larik, dan Algoritma Pencarian Interpolasi</b><br>
-  <sub>Latihan Java untuk manipulasi array dan teknik pencarian efisien</sub>
 </p>
 
 <div align="center">
@@ -32,8 +31,7 @@ Cocok untuk pembelajaran algoritma pencarian tingkat lanjut dan manipulasi array
 JavaInterpolasiSearch/
 ├── Larik.java                    # Kelas array dengan berbagai operasi
 ├── LarikTest.java                # Program pengujian untuk Larik
-├── PencarianInterpolasi.java    # Algoritma pencarian interpolasi
-└── README.md                     # Dokumentasi proyek
+└── PencarianInterpolasi.java    # Algoritma pencarian interpolasi
 ```
 
 ---
@@ -42,35 +40,6 @@ JavaInterpolasiSearch/
 
 - Java 17+
 - IDE Java atau terminal (NetBeans, IntelliJ, Eclipse, VS Code)
-
----
-
-## 🚀 Cara Menjalankan
-
-1️⃣ **Kompilasi semua file Java**
-```bash
-javac Larik.java LarikTest.java PencarianInterpolasi.java
-```
-
-2️⃣ **Jalankan pengujian larik**
-```bash
-java LarikTest
-```
-
-3️⃣ **Jalankan program pencarian interpolasi**
-```bash
-java PencarianInterpolasi
-```
-
----
-
-## 📌 Contoh Output (simulasi)
-
-```
-Data sebelum diurutkan: [5, 20, 15, 10, 30]
-Data setelah diurutkan: [5, 10, 15, 20, 30]
-Cari nilai 15: Ditemukan pada indeks 2
-```
 
 ---
 
@@ -89,9 +58,3 @@ pos = low + ((key - arr[low]) * (high - low)) / (arr[high] - arr[low]);
 
 **MBAHSINGO22**  
 🔗 [GitHub](https://github.com/MBAHSINGO22)
-
----
-
-## 📄 Lisensi
-
-Proyek ini bebas digunakan untuk pembelajaran, riset, dan pengembangan algoritma.
